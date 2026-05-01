@@ -1,0 +1,58 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "denodo": "https://community.denodo.com/docs/",
+    "VirtualView": {
+      "@id": "denodo:vdp/administration/restful_architecture/restful_architecture",
+      "@context": {
+        "name": "https://schema.org/name",
+        "database": "https://schema.org/isPartOf",
+        "fields": "https://schema.org/variableMeasured",
+        "description": "https://schema.org/description"
+      }
+    },
+    "DataCatalogElement": {
+      "@id": "denodo:vdp/data_catalog/appendix/rest_api/rest_api",
+      "@context": {
+        "name": "https://schema.org/name",
+        "type": "https://schema.org/additionalType",
+        "tags": "https://schema.org/keywords",
+        "category": "https://schema.org/category",
+        "owner": "https://schema.org/author"
+      }
+    },
+    "Cluster": {
+      "@id": "denodo:solution_manager/administration/appendix/rest_api/rest_api",
+      "@context": {
+        "name": "https://schema.org/name",
+        "environment": "https://schema.org/applicationCategory",
+        "servers": "https://schema.org/serviceType"
+      }
+    },
+    "Environment": {
+      "@id": "denodo:solution_manager/administration/appendix/rest_api/rest_api",
+      "@context": {
+        "name": "https://schema.org/name",
+        "description": "https://schema.org/description",
+        "minUpdate": "https://schema.org/version"
+      }
+    },
+    "ScheduledJob": {
+      "@id": "denodo:scheduler/administration/scheduler_rest_web_service/scheduler_rest_web_service",
+      "@context": {
+        "name": "https://schema.org/name",
+        "project": "https://schema.org/isPartOf",
+        "schedule": "https://schema.org/scheduleTimezone",
+        "status": "https://schema.org/eventStatus"
+      }
+    },
+    "RESTEndpoint": {
+      "@id": "denodo:vdp/administration/restful_architecture/rest_web_service/rest_web_service",
+      "@context": {
+        "path": "https://schema.org/url",
+        "view": "https://schema.org/about",
+        "format": "https://schema.org/encodingFormat"
+      }
+    }
+  }
+}

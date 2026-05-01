@@ -1,0 +1,59 @@
+name: Denodo Capabilities
+description: >-
+  Capabilities exposed by the Denodo Platform's Virtual DataPort, Data Catalog,
+  Solution Manager, Scheduler, and web service surfaces.
+capabilities:
+  - name: Data Source Connectivity
+    description: Connect to relational, NoSQL, file, web, SaaS, and cloud data sources.
+    api: denodo:rest-web-service
+  - name: Virtual View Creation
+    description: Create base and derived views in VQL that abstract underlying sources.
+    api: denodo:rest-web-service
+  - name: Query Federation
+    description: Execute distributed queries across multiple sources in real time.
+    api: denodo:rest-web-service
+  - name: REST Service Publishing
+    description: Publish virtual views as resource-oriented REST endpoints.
+    api: denodo:rest-web-service
+  - name: OData 4 Service Publishing
+    description: Expose views through an OData 4.0 compliant interface.
+    api: denodo:odata-service
+  - name: GraphQL Service Publishing
+    description: Generate GraphQL endpoints from selected virtual views.
+    api: denodo:graphql-service
+  - name: Catalog Search
+    description: Search the Data Catalog by keyword, tag, category, or owner.
+    api: denodo:data-catalog-api
+  - name: Catalog Governance
+    description: Apply tags, categories, certifications, and ownership to catalog elements.
+    api: denodo:data-catalog-api
+  - name: Lineage Exploration
+    description: Inspect lineage and impact graphs for views and web services.
+    api: denodo:data-catalog-api
+  - name: Catalog Export and Import
+    description: Export and import the Data Catalog configuration as JSON archives.
+    api: denodo:data-catalog-api
+  - name: Cluster Management
+    description: Manage clusters of VDP, Scheduler, and Data Catalog servers from Solution Manager.
+    api: denodo:solution-manager-api
+  - name: Environment Management
+    description: Configure environments and promote revisions across them.
+    api: denodo:solution-manager-api
+  - name: Revision Deployment
+    description: Deploy versioned revisions of metadata and configuration to clusters.
+    api: denodo:solution-manager-api
+  - name: License Administration
+    description: Distribute and update Denodo licenses across managed servers.
+    api: denodo:solution-manager-api
+  - name: Permission Administration
+    description: Configure roles and permissions for Solution Manager users.
+    api: denodo:solution-manager-api
+  - name: Job Scheduling
+    description: Create, list, run, and cancel scheduled jobs in the Scheduler.
+    api: denodo:scheduler-rest-api
+  - name: Job Monitoring
+    description: Retrieve job status, history, and execution logs via REST.
+    api: denodo:scheduler-rest-api
+  - name: Cache Management
+    description: Trigger view cache loads and refreshes via Scheduler jobs.
+    api: denodo:scheduler-rest-api

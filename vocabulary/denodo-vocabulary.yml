@@ -1,0 +1,89 @@
+name: Denodo Vocabulary
+description: >-
+  Shared vocabulary of terms used across the Denodo Platform's data
+  virtualization, data catalog, solution manager, scheduler, and web service
+  publishing surfaces.
+terms:
+  - term: Virtual DataPort
+    definition: >-
+      The core data virtualization engine of the Denodo Platform that creates
+      a logical layer over heterogeneous data sources and exposes virtual views.
+  - term: Virtual View
+    definition: >-
+      A logical view in Virtual DataPort defined in VQL that abstracts and
+      transforms data from one or more underlying sources without physically
+      moving the data.
+  - term: VQL
+    definition: >-
+      Denodo's SQL-derived query and definition language used to create
+      data sources, base views, and derived views in Virtual DataPort.
+  - term: Data Catalog
+    definition: >-
+      A web application included with the Denodo Platform that exposes search,
+      governance, lineage, and self-service consumption of virtual views and
+      web services.
+  - term: Solution Manager
+    definition: >-
+      A separate Denodo Platform component that centralizes administration,
+      licensing, and revision-based deployment across multiple environments and
+      clusters.
+  - term: Scheduler
+    definition: >-
+      The Denodo component that automates execution of jobs that extract,
+      cache, or index data through Virtual DataPort.
+  - term: Cluster
+    definition: >-
+      A logical grouping of one or more Denodo servers (VDP, Scheduler, or
+      Data Catalog) managed as a unit by the Solution Manager.
+  - term: Environment
+    definition: >-
+      A named promotion stage such as Development, Test, or Production that
+      contains one or more clusters within Solution Manager.
+  - term: Revision
+    definition: >-
+      A versioned bundle of metadata and configuration changes that can be
+      deployed across environments via the Solution Manager.
+  - term: Data Source
+    definition: >-
+      A connection definition that allows Virtual DataPort to read from a
+      database, file, web service, or application.
+  - term: Base View
+    definition: >-
+      A view directly mapped to a single data source, serving as the foundation
+      for derived views and queries.
+  - term: Derived View
+    definition: >-
+      A view defined by a VQL query that combines, transforms, or filters one
+      or more base or derived views.
+  - term: Web Service
+    definition: >-
+      A SOAP, REST, OData, or GraphQL service published from Virtual DataPort
+      that exposes one or more views as data products.
+  - term: REST Web Service
+    definition: >-
+      A resource-oriented HTTP endpoint that publishes views with JSON, XML,
+      and HTML representations, supporting filtering, projection, and pagination.
+  - term: OData Service
+    definition: >-
+      An OData 4.0 compliant interface that exposes Virtual DataPort views over
+      HTTP using the OASIS Open Data Protocol.
+  - term: GraphQL Service
+    definition: >-
+      A GraphQL endpoint generated from Denodo views that lets clients run
+      GraphQL queries against the virtual data layer.
+  - term: Data Product
+    definition: >-
+      A governed, documented, and discoverable virtual view or web service
+      published in the Data Catalog and consumed by data products consumers.
+  - term: Lineage
+    definition: >-
+      The graph of relationships between data sources, base views, derived
+      views, and consuming web services tracked by the Data Catalog.
+  - term: Tag
+    definition: >-
+      A user-defined label applied to catalog elements for governance,
+      discoverability, and search.
+  - term: Category
+    definition: >-
+      A hierarchical classification used in the Data Catalog to group related
+      catalog elements.
