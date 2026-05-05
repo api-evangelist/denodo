@@ -1,0 +1,13 @@
+{
+  "repo": "denodo",
+  "feeds": [
+    {
+      "source": "https://www.denodo.com/en/blog",
+      "feed_url": "https://www.denodo.com/en/rss.xml",
+      "saved": 10,
+      "title": "Denodo - Data Virtualization"
+    }
+  ],
+  "post_count": 10,
+  "fetched": "2026-05-03T23:27:51Z"
+}
