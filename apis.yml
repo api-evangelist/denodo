@@ -212,6 +212,16 @@ common:
     url: vocabulary/denodo-vocabulary.yml
   - type: Capabilities
     url: capabilities/denodo-capabilities.yml
+  - type: Integrations
+    url: https://www.denodo.com/en/partners
+integrations:
+  - name: logo AWS
+  - name: logo Azure
+  - name: Google Cloud Platform
+  - name: logo alibaba cloud
+  - name: thumbnail
+  - name: partner portal picture
+  - name: Logo
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
