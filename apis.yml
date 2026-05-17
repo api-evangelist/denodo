@@ -25,7 +25,7 @@ url: >-
 created: '2026-03-16'
 modified: '2026-04-28'
 specificationVersion: '0.19'
-xType: company
+kind: company
 position: Producer
 access: 3rd-Party
 apis:
@@ -188,7 +188,7 @@ common:
     url: https://www.denodo.com/en/pricing
   - type: Support
     url: https://support.denodo.com/
-  - type: Status
+  - type: StatusPage
     url: https://www.denodo.com/en/legal/denodo-trust-center
   - type: Blog
     url: https://www.denodo.com/en/blog
@@ -198,15 +198,15 @@ common:
     url: https://www.denodo.com/en/partners
   - type: Training
     url: https://www.denodo.com/en/services/training
-  - type: GitHub Organization
+  - type: GitHubOrganization
     url: https://github.com/denodo
-  - type: Terms of Service
+  - type: TermsOfService
     url: https://www.denodo.com/en/legal/legal-notice
-  - type: Privacy Policy
+  - type: PrivacyPolicy
     url: https://www.denodo.com/en/legal/privacy-policy
   - type: Security
     url: https://www.denodo.com/en/legal/denodo-trust-center
-  - type: JSON-LD
+  - type: JSONLD
     url: json-ld/denodo-context.jsonld
   - type: Vocabulary
     url: vocabulary/denodo-vocabulary.yml
