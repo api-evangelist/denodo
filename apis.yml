@@ -172,6 +172,8 @@ apis:
         email: support@denodo.com
         url: https://support.denodo.com
 common:
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/denodo-technologies
   - type: Website
     url: https://www.denodo.com
   - type: Portal
