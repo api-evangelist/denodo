@@ -2,12 +2,17 @@
   "repo": "denodo",
   "feeds": [
     {
-      "source": "https://www.denodo.com/en/blog",
+      "source": "https://www.denodo.com/rss.xml",
       "feed_url": "https://www.denodo.com/rss.xml",
-      "title": "Denodo - Data Virtualization",
-      "saved": 7
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
+      "source": "https://www.denodo.com/en/legal/denodo-trust-center",
+      "error": "HTTPError"
     }
   ],
-  "post_count": 23,
-  "fetched": "2026-05-17T20:20:35Z"
+  "post_count": 29,
+  "fetched": "2026-06-01T23:35:02Z"
 }
