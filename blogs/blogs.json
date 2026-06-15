@@ -5,7 +5,7 @@
       "source": "https://www.denodo.com/rss.xml",
       "feed_url": "https://www.denodo.com/rss.xml",
       "title": "",
-      "saved": 0,
+      "saved": 6,
       "method": "feed"
     },
     {
@@ -13,6 +13,6 @@
       "error": "HTTPError"
     }
   ],
-  "post_count": 29,
-  "fetched": "2026-06-01T23:35:02Z"
+  "post_count": 39,
+  "fetched": "2026-06-14T20:42:17Z"
 }
