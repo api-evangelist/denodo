@@ -8,7 +8,7 @@ description: >-
   Manager, and the Scheduler so that data products can be published, governed, and
   administered programmatically.
 type: Index
-image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 tags:
 - Data Catalog
 - Data Fabric
@@ -38,7 +38,7 @@ apis:
     across servers (VDP, SCHEDULER, VDP_DATA_CATALOG), monitoring, license management,
     and permissions administration. Most operations require HTTP Basic authentication
     or token-based authentication.
-  image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+  image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
   humanURL: https://community.denodo.com/docs/html/browse/latest/en/solution_manager/administration/appendix/rest_api/rest_api
   baseURL: https://solution-manager.example.com/solution-manager
   tags:
@@ -64,7 +64,7 @@ apis:
     certifications managed by the Denodo Platform. It powers metadata exploration,
     data product publishing, and governance workflows. Interactive documentation
     is available via Swagger at /denodo-data-catalog/swagger-ui/index.html.
-  image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+  image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
   humanURL: https://community.denodo.com/docs/html/browse/latest/en/vdp/data_catalog/appendix/rest_api/rest_api
   baseURL: https://denodo.example.com/denodo-data-catalog
   tags:
@@ -90,7 +90,7 @@ apis:
     representations, query filtering, projection, pagination, and HATEOAS
     navigation between associated views. The same RESTful approach is used to
     publish custom REST Web services declared via VQL.
-  image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+  image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
   humanURL: https://community.denodo.com/docs/html/browse/latest/en/vdp/administration/restful_architecture/restful_architecture
   baseURL: https://denodo.example.com/denodo-restfulws
   tags:
@@ -114,7 +114,7 @@ apis:
     interface for querying Virtual DataPort views over HTTP. It supports
     filter, select, expand, orderby, top, and skip query options as well as
     service metadata documents and entity navigation between related views.
-  image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+  image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
   humanURL: https://community.denodo.com/docs/html/browse/latest/en/vdp/administration/restful_architecture/odata_4_service/odata_4_service
   baseURL: https://denodo.example.com/denodo-odata4-service
   tags:
@@ -136,7 +136,7 @@ apis:
     against virtual views in the Denodo Platform. It generates a GraphQL
     schema from selected views and supports filtering, pagination, and field
     selection through standard GraphQL syntax over HTTP.
-  image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+  image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
   humanURL: https://community.denodo.com/docs/html/browse/latest/en/vdp/administration/restful_architecture/graphql_service/graphql_service
   baseURL: https://denodo.example.com/denodo-graphql-service
   tags:
@@ -159,7 +159,7 @@ apis:
     monitoring of scheduled jobs and projects in the Denodo Scheduler
     component. Endpoints support listing, creating, executing, cancelling
     jobs and retrieving their status, history, and configuration.
-  image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+  image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
   humanURL: https://community.denodo.com/docs/html/browse/latest/en/scheduler/administration/scheduler_rest_web_service/scheduler_rest_web_service
   baseURL: https://denodo.example.com/webadmin/denodo-scheduler-admin
   tags:
