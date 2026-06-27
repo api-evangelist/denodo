@@ -220,7 +220,7 @@ common:
   url: https://www.denodo.com/en/partners
 - name: Agent Skills
   url: https://github.com/denodo/denodo-skills
-  type: AgentSkill
+  type: AgentSkills
 integrations:
 - name: logo AWS
 - name: logo Azure
