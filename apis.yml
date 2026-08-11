@@ -228,8 +228,6 @@ common:
   url: json-ld/denodo-context.jsonld
 - type: Vocabulary
   url: vocabulary/denodo-vocabulary.yml
-- type: Capabilities
-  url: capabilities/denodo-capabilities.yml
 - type: Integrations
   url: https://www.denodo.com/en/partners
 - name: Agent Skills
