@@ -55,6 +55,12 @@ apis:
   baseURL: https://solution-manager.example.com/solution-manager
   tags:
   - Administration
+  - Cluster
+  - Deployment
+  - Environments
+  - Solution Manager
+  tags_raw:
+  - Administration
   - Clusters
   - Deployment
   - Environments
@@ -175,6 +181,10 @@ apis:
   humanURL: https://community.denodo.com/docs/html/browse/latest/en/scheduler/administration/scheduler_rest_web_service/scheduler_rest_web_service
   baseURL: https://denodo.example.com/webadmin/denodo-scheduler-admin
   tags:
+  - Job
+  - Scheduler
+  - Workflows
+  tags_raw:
   - Jobs
   - Scheduler
   - Workflow
