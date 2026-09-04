@@ -49,7 +49,7 @@ created: '2026-03-16'
 modified: '2026-05-19'
 specificationVersion: '0.23'
 kind: company
-position: Producer
+position: Producing
 access: 3rd-Party
 apis:
 - aid: denodo:solution-manager-api
