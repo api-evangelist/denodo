@@ -68,7 +68,7 @@ apis:
   - Administration
   - Cluster
   - Deployment
-  - Environments
+  - Environment
   - Solution Manager
   tags_raw:
   - Administration
