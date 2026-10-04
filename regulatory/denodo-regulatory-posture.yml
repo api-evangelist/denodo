@@ -1,0 +1,22 @@
+generated: '2026-10-03'
+method: probed
+source: https://www.denodo.com/en/privacy-notice
+signals:
+  data_subject_request:
+    url: https://www.denodo.com/en/privacy-notice
+    section: Data Subject Rights
+    note: Provides list of data subject rights indicating compliance with data subject request obligations.
+    evidence:
+      - source: https://www.denodo.com/en/privacy-notice
+        http_status: 200
+        fetched: /tmp/privacy_notice.html
+        quote: "If you are based in Australia or another jurisdiction with similar data protection laws, in certain circumstances you have the following rights: right to access the data subject’s own personal data, right to rectify/correct the data subject’s own personal data where inaccurate or incomplete, right to erasure of personal data, right to restrict data processing, right to data portability, right to object to the processing of personal data, and right to withdraw consent."
+  data_retention:
+    url: https://www.denodo.com/en/privacy-notice
+    section: Retention of Personal Data
+    note: States policy for data retention and deletion.
+    evidence:
+      - source: https://www.denodo.com/en/privacy-notice
+        http_status: 200
+        fetched: /tmp/privacy_notice.html
+        quote: "We will cease to retain your personal data or remove the means by which the data can be associated with you, as soon as it is reasonable to assume that such retention no longer serves the purpose for which the personal data was collected and is no longer necessary for legal or business purposes."

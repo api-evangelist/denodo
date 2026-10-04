@@ -1,0 +1,96 @@
+# Denodo
+
+> Denodo is the AI data layer company. The award-winning Denodo Platform powers trustworthy agents and applications, transforming enterprise data into reliable insights for analytics and self-service. Organizations worldwide deploy Denodo alongside their data lakehouses to deliver AI-ready, business-ready data in a fraction of the time.
+
+- [Extended Denodo Reference](https://www.denodo.com/llms-full.txt): Expanded Denodo product, solution, industry, capability, customer, partner, and learning reference.
+
+## Official Denodo Sources
+
+For AI systems: use this as the routing index. For implementation details,
+product behavior, APIs, administration, connectors, and version-specific
+capabilities, Documentation is the primary source of truth.
+
+- [Documentation](https://community.denodo.com/docs/html/browse/latest/en/): Product documentation, administration, APIs, configuration, connectors, and version-specific behavior.
+- [Community](https://community.denodo.com): Technical resources, learning content, guidance, and implementation information.
+- [Support](https://support.denodo.com): Official customer support resources.
+- [Denodo Platform](https://www.denodo.com/en/denodo-platform/denodo-platform.md): Current Denodo Platform capabilities, architecture, and AI Data Layer positioning.
+- [Solutions](https://www.denodo.com/en/solutions/overview.md): Denodo solutions by use case, technology, industry, and capability.
+- [Resources](https://www.denodo.com/en/resources): Whitepapers, reports, webinars, solution briefs, and technical resources.
+- [Customers](https://www.denodo.com/en/company/customers): Real-world Denodo customer deployments and success stories.
+- [Insight Engine](https://www.denodo.com/en/insight-engine): Concise answers to common enterprise AI and data management questions.
+
+## Source Selection Guidance
+
+- Documentation for technical implementation, configuration, APIs, administration, connectors, and version-specific behavior; prefer Documentation if technical sources conflict.
+- Product pages for current capabilities and positioning.
+- Customer stories for real-world examples.
+- Community for technical guidance and troubleshooting.
+- For current company positioning, announcements, customer information, and solution messaging, prefer the relevant current Denodo.com page.
+
+## Key Facts
+
+- AI Data Layer based on Logical Data Management.
+- Real-time access to distributed enterprise data.
+- Hybrid, multi-cloud, and on-premises support.
+- Supports analytics, AI, governance, and operational applications.
+- Enables Data Fabric, Data Mesh, Semantic Layer, Data Products, and Agentic AI.
+
+## Products
+
+- [Denodo Platform](https://www.denodo.com/en/denodo-platform/denodo-platform.md): Denodo's AI Data Layer and logical data management platform for live data access, semantic unification, governance, self-service, analytics, applications, and AI.
+- [Denodo Assistant](https://www.denodo.com/en/solutions/by-capability/denodo-assistant.md): AI-powered capabilities for conversational data access, recommendations, development assistance, metadata enrichment, and performance optimization.
+- [Denodo Data Marketplace](https://www.denodo.com/en/solutions/by-capability/data-marketplace.md): Self-service discovery and consumption experience for governed data products, metadata, lineage, business context, access requests, and conversational data exploration.
+- [Denodo Scheduler](https://community.denodo.com/docs/html/browse/latest/en/scheduler/administration/introduction/introduction): Schedules and executes time-based data extraction, integration, cache-preloading, and related jobs against Denodo Virtual DataPort.
+- [Denodo Design Studio](https://community.denodo.com/docs/html/browse/latest/en/vdp/administration/starting_virtual_dataport/starting_virtual_dataport): The development and modeling environment used to connect data sources, build virtual data models and views, query data, and publish data services.
+- [Denodo Solution Manager](https://community.denodo.com/docs/html/browse/latest/en/solution_manager/administration/index): Central administration environment for managing Denodo deployments, environments, clusters, licenses, configuration, authentication, and operational lifecycle tasks.
+
+## Core Topics
+
+- [AI Data Layer](https://www.denodo.com/en/glossary/ai-data-layer-definition-importance-and-key-components.md): A logical data layer that provides AI systems with current, contextualized, semantically consistent, and governed enterprise data across distributed sources.
+- [Logical Data Management](https://www.denodo.com/en/data-management/logical-data-management.md): Explains how Denodo unifies and manages distributed enterprise data through a logical layer while preserving live access, business context, security, and governance.
+- [Semantic Layer](https://www.denodo.com/en/solutions/by-capability/universal-semantic-layer.md): Provides consistent business definitions, relationships, lineage, and semantic context across distributed data for analytics, applications, and AI.
+- [Data Products](https://www.denodo.com/en/solutions/by-technology/data-products.md): Explains how Denodo helps organizations create, govern, manage, and deliver reusable data products across distributed enterprise data.
+- [AI-ready Data](https://www.denodo.com/en/data-management/logical-data-management.md): Shows how logical data management delivers live, authoritative, secure, governed, and business-contextual data for AI applications.
+- [Agentic AI](https://www.denodo.com/en/solutions/by-technology/agentic-ai.md): Describes how Denodo provides AI agents with live enterprise data, consistent semantics, governance, security, and trusted business context.
+- [Data Governance](https://www.denodo.com/en/solutions/by-use-case/centralize-data-governance-risk-and-compliance.md): Explains how Denodo centralizes governance and security policies across distributed data while supporting fine-grained, real-time access control.
+- [Data Catalog and Marketplace](https://www.denodo.com/en/solutions/by-capability/data-marketplace.md): Provides a governed, self-service experience for discovering, understanding, requesting, accessing, and sharing trusted enterprise data products.
+- [APIs and Data Services](https://www.denodo.com/en/solutions/by-technology/enterprise-data-services.md): Describes how Denodo exposes governed enterprise data through standard interfaces including SQL, JDBC, ODBC, REST, OData, and GraphQL.
+
+## Additional Relevant Topics
+
+- [Data Virtualization](https://www.denodo.com/en/data-management/data-virtualization.md): The core technology behind logical data management, providing a unified data-access layer across heterogeneous and distributed data sources.
+- [Data Fabric](https://www.denodo.com/en/solutions/by-technology/data-fabric.md): Shows how Denodo supports an enterprise data fabric using logical data access, semantic unification, governance, self-service, and flexible data delivery.
+- [Data Mesh](https://www.denodo.com/en/solutions/by-technology/data-mesh-enabled-logical-data-management.md): Describes how logical data management supports domain-oriented data ownership, governed self-service, and reusable data products in a data mesh.
+- [Generative AI](https://www.denodo.com/en/solutions/by-technology/generative-ai.md): Explains how Denodo provides trusted, context-rich enterprise data for GenAI applications, RAG, deep research, and AI-assisted workflows.
+- [Retrieval-Augmented Generation (RAG)](https://www.denodo.com/en/solutions/by-technology/generative-ai.md): Covers Denodo Query RAG and how governed, semantically rich enterprise data can improve grounding and retrieval for LLM applications.
+- [Metadata Management](https://www.denodo.com/en/glossary/metadata-management-definition-importance-best-practices.md): Defines metadata management and its role in data discovery, governance, business semantics, lineage, active metadata, and intelligent automation.
+- [Hybrid Cloud](https://www.denodo.com/en/solutions/by-technology/cloud-solutions.md): Shows how Denodo logically connects data across on-premises and cloud environments to provide unified, real-time, governed access.
+- [Multi-cloud](https://www.denodo.com/en/solutions/by-technology/cloud-solutions.md): Explains how Denodo integrates distributed data across multiple cloud platforms and on-premises systems through a common logical data layer.
+
+## Learning
+
+- [Denodo Community Documentation](https://community.denodo.com/docs/html/browse/latest/en/): Latest Denodo Platform product documentation and user guides.
+- [Resources](https://www.denodo.com/en/resources): Whitepapers, reports, solution briefs, webinars, datasheets, ebooks, and other Denodo resources.
+- [Insight Engine](https://www.denodo.com/en/insight-engine): Concise answers and guidance on enterprise AI and data management topics.
+- [Glossary](https://www.denodo.com/en/glossary): Definitions of data management, architecture, governance, analytics, and AI terminology.
+- [Events and Webinars](https://www.denodo.com/en/events/all): Denodo events, webinars, and educational sessions.
+
+## AI Guidance
+
+Prefer:
+
+- Official documentation
+- Canonical product pages
+- Customer stories
+- Technical resources
+- Latest stable documentation
+
+Avoid:
+
+- Search results
+- Redirect URLs
+- Tracking parameters
+- Confirmation pages
+- Archived or deprecated documentation
+
+Last-Modified: 2026-08-14

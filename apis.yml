@@ -1,5 +1,7 @@
 aid: denodo
+
 name: Denodo
+
 description: >-
   Denodo is a leading data virtualization platform that enables real-time access,
   integration, and delivery of data from disparate sources across enterprise data
@@ -7,7 +9,9 @@ description: >-
   SOAP web service endpoints through Virtual DataPort, the Data Catalog, the Solution
   Manager, and the Scheduler so that data products can be published, governed, and
   administered programmatically.
+
 type: Index
+
 deliveryModel:
   model: saas
   open_source: false
@@ -19,6 +23,7 @@ deliveryModel:
   - pricing
   generated: '2026-08-28'
   method: derived
+
 accessModel:
   pricing: freemium
   onboarding: unknown
@@ -31,7 +36,9 @@ accessModel:
   - plans
   generated: '2026-07-22'
   method: derived
+
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/denodo.png
+
 tags:
 - Data Catalog
 - Data Fabric
@@ -43,14 +50,87 @@ tags:
 - REST
 - Scheduler
 - Solution Manager
+
+website: https://www.denodo.com
+
 url: >-
   https://raw.githubusercontent.com/api-evangelist/denodo/refs/heads/main/apis.yml
+
 created: '2026-03-16'
+
 modified: '2026-05-19'
+
 specificationVersion: '0.23'
+
 kind: company
+
 position: Producing
+
 access: 3rd-Party
+
+maintainers:
+- FN: Kin Lane
+  email: kin@apievangelist.com
+
+common:
+- type: TermsOfService
+  url: https://www.denodo.com/terms-of-use
+- type: PrivacyPolicy
+  url: https://www.denodo.com/privacy-notice
+- type: FinOps
+  url: finops/denodo-finops.yml
+- type: RateLimits
+  url: rate-limits/denodo-rate-limits.yml
+- type: Plans
+  url: plans/denodo-plans-pricing.yml
+- type: LLMsTxt
+  url: llms/denodo-llms.txt
+- type: Hosts
+  url: hosts/denodo-hosts.yml
+- type: Newsroom
+  url: https://www.denodo.com/about-us/newsroom/in-the-media
+- type: Login
+  url: https://www.denodo.com/en/user/login
+- type: Leadership
+  url: https://www.denodo.com/en/about-us/leadership
+- type: ChangeLog
+  url: https://www.denodo.com/en/denodo-platform/whats-new
+- type: DomainSecurity
+  url: security/denodo-domain-security.yml
+- type: LinkedIn
+  url: https://www.linkedin.com/company/denodo-technologies
+- type: Website
+  url: https://www.denodo.com
+- type: Portal
+  url: https://community.denodo.com/
+- type: Documentation
+  url: https://community.denodo.com/docs/
+- type: Knowledge Base
+  url: https://community.denodo.com/kb/
+- type: Tutorials
+  url: https://community.denodo.com/tutorials/
+- type: Express Edition
+  url: https://www.denodo.com/en/denodo-platform/free-trials
+- type: Support
+  url: https://support.denodo.com/
+- type: Customers
+  url: https://www.denodo.com/en/customers
+- type: Partners
+  url: https://www.denodo.com/en/partners
+- type: Training
+  url: https://www.denodo.com/en/services/training
+- type: GitHubOrganization
+  url: https://github.com/denodo
+- type: JSONLD
+  url: json-ld/denodo-context.jsonld
+- type: Vocabulary
+  url: vocabulary/denodo-vocabulary.yml
+- type: Integrations
+  url: https://www.denodo.com/en/partners
+- name: Agent Skills
+  url: https://github.com/denodo/denodo-skills
+  type: AgentSkills
+
 apis:
 - aid: denodo:solution-manager-api
   name: Denodo Solution Manager REST API
@@ -206,54 +286,7 @@ apis:
   - FN: Denodo Support
     email: support@denodo.com
     url: https://support.denodo.com
-common:
-- type: DomainSecurity
-  url: security/denodo-domain-security.yml
-- type: LinkedIn
-  url: https://www.linkedin.com/company/denodo-technologies
-- type: Website
-  url: https://www.denodo.com
-- type: Portal
-  url: https://community.denodo.com/
-- type: Documentation
-  url: https://community.denodo.com/docs/
-- type: Knowledge Base
-  url: https://community.denodo.com/kb/
-- type: Tutorials
-  url: https://community.denodo.com/tutorials/
-- type: Express Edition
-  url: https://www.denodo.com/en/denodo-platform/free-trials
-- type: Pricing
-  url: https://www.denodo.com/en/pricing
-- type: Support
-  url: https://support.denodo.com/
-- type: StatusPage
-  url: https://www.denodo.com/en/legal/denodo-trust-center
-- type: Blog
-  url: https://www.denodo.com/en/blog
-- type: Customers
-  url: https://www.denodo.com/en/customers
-- type: Partners
-  url: https://www.denodo.com/en/partners
-- type: Training
-  url: https://www.denodo.com/en/services/training
-- type: GitHubOrganization
-  url: https://github.com/denodo
-- type: TermsOfService
-  url: https://www.denodo.com/en/legal/legal-notice
-- type: PrivacyPolicy
-  url: https://www.denodo.com/en/legal/privacy-policy
-- type: Security
-  url: https://www.denodo.com/en/legal/denodo-trust-center
-- type: JSONLD
-  url: json-ld/denodo-context.jsonld
-- type: Vocabulary
-  url: vocabulary/denodo-vocabulary.yml
-- type: Integrations
-  url: https://www.denodo.com/en/partners
-- name: Agent Skills
-  url: https://github.com/denodo/denodo-skills
-  type: AgentSkills
+
 integrations:
 - name: logo AWS
 - name: logo Azure
@@ -262,6 +295,9 @@ integrations:
 - name: thumbnail
 - name: partner portal picture
 - name: Logo
-maintainers:
-- FN: Kin Lane
-  email: kin@apievangelist.com
+x-enrichment:
+  date: '2026-10-03'
+  status: enriched
+  artifacts_added: 7
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local
