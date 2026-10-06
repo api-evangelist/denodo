@@ -58,7 +58,7 @@ url: >-
 
 created: '2026-03-16'
 
-modified: '2026-05-19'
+modified: '2026-10-06'
 
 specificationVersion: '0.23'
 
@@ -73,6 +73,8 @@ maintainers:
   email: kin@apievangelist.com
 
 common:
+- url: https://www.denodo.com/en/rss.xml
+  type: BlogRSS
 - type: TermsOfService
   url: https://www.denodo.com/terms-of-use
 - type: PrivacyPolicy
