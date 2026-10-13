@@ -1,0 +1,70 @@
+generated: '2026-10-13'
+method: searched
+checked:
+- https://aws.amazon.com/marketplace/
+- https://azuremarketplace.microsoft.com/
+marketplace_apps: []
+edges:
+- partner_name: AWS Marketplace
+  partner: amazon-web-services
+  partner_match: aggregator
+  type: marketplace
+  marketplace: aws-marketplace
+  channel: distribution
+  relationship: platform-app
+  direction: provider-built
+  evidence: https://aws.amazon.com/marketplace/seller-profile?id=375933c7-ef48-4e99-a007-cb30e7bdf8d6
+  listing_count: 1
+  apps:
+  - Agora on AWS
+  seller_name: Denodo Technologies Inc.
+  detected_by: sweep-cloud-marketplaces.py
+  detected: '2026-10-13'
+- partner_name: AWS Marketplace
+  partner: amazon-web-services
+  partner_match: aggregator
+  type: marketplace
+  marketplace: aws-marketplace
+  channel: distribution
+  relationship: platform-app
+  direction: provider-built
+  evidence: https://aws.amazon.com/marketplace/seller-profile?id=seller-ep4virjdpmdim
+  listing_count: 1
+  apps:
+  - Agora on AWS
+  seller_name: Denodo Technologies Spain
+  detected_by: sweep-cloud-marketplaces.py
+  detected: '2026-10-13'
+- partner_name: AWS Marketplace
+  partner: amazon-web-services
+  partner_match: aggregator
+  type: marketplace
+  marketplace: aws-marketplace
+  channel: distribution
+  relationship: platform-app
+  direction: provider-built
+  evidence: https://aws.amazon.com/marketplace/seller-profile?id=seller-vwtmg65444v62
+  listing_count: 1
+  apps:
+  - Agora on AWS
+  seller_name: Denodo Technologies UK
+  detected_by: sweep-cloud-marketplaces.py
+  detected: '2026-10-13'
+- partner_name: Microsoft Azure Marketplace
+  partner: microsoft-azure
+  partner_match: aggregator
+  type: marketplace
+  marketplace: azure-marketplace
+  channel: distribution
+  relationship: platform-app
+  direction: provider-built
+  evidence: https://azuremarketplace.microsoft.com/en-us/marketplace/apps?search=Denodo
+  listing_count: 4
+  apps:
+  - Denodo 9 Enterprise Plus
+  - Denodo Consulting Services
+  - Agora on Azure
+  - Denodo for Azure (Consumption Based Pricing)
+  seller_name: Denodo
+  detected_by: sweep-cloud-marketplaces.py
+  detected: '2026-10-13'
