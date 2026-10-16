@@ -2,25 +2,19 @@
 kin_checks:
   slug: denodo
   schema_version: 0.23.0
-  scored_at: '2026-10-03'
-  run_ts: 2026-10-03T024842
+  scored_at: '2026-10-11'
+  run_ts: 2026-10-11T110117
   note: Actionable checks (missed + partial) in `checks`, plus the ids that did not
     apply in `na`. Everything else in rubric/scoring-0.23.0.yml was earned; counts
     below let you verify that.
   counts:
     total: 153
-    earned: 17
+    earned: 22
     partial: 10
-    missed: 80
+    missed: 75
     na: 46
   checks:
-  - id: newsroom_present
-    status: missed
-  - id: leadership_present
-    status: missed
   - id: well_known_published
-    status: missed
-  - id: llms_txt_published
     status: missed
   - id: apis_json_self_hosted
     status: missed
@@ -52,16 +46,12 @@ kin_checks:
     status: missed
   - id: overlay_published
     status: missed
-  - id: change_log_present
-    status: missed
   - id: status_page_present
     status: missed
-    detail: pointer liveness 0.0
   - id: deprecation_policy
     status: missed
   - id: security_disclosure
     status: missed
-    detail: pointer liveness 0.0
   - id: webhooks_advertised
     status: missed
   - id: roadmap_present
@@ -87,11 +77,7 @@ kin_checks:
     detail: pointer liveness 0.0
   - id: blog_present
     status: missed
-    detail: pointer liveness 0.0
   - id: pricing_link
-    status: missed
-    detail: pointer liveness 0.0
-  - id: sign_up_present
     status: missed
   - id: terms_of_service
     status: missed
@@ -210,8 +196,8 @@ kin_checks:
     earned: 1.0
   - id: rate_limit_signal
     status: partial
-    earned: 3.5
-    detail: 'grade: documented'
+    earned: 0.88
+    detail: 'grade: derived'
   - id: agent_skills
     status: partial
     earned: 4.5
