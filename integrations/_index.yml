@@ -27,3 +27,29 @@
   relationship: distribution-channel
   status: not-a-workflow
   arazzo: null
+- slug: denodo-tableau-own
+  label: Tableau (own)
+  partner: tableau
+  partner_name: Tableau (own)
+  category: connector
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://exchange.tableau.com/products/303
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: denodo-vs-code-marketplace-vs-code-marketplace
+  label: VS Code Marketplace (vs-code-marketplace)
+  partner: vs-code-marketplace
+  partner_name: VS Code Marketplace (vs-code-marketplace)
+  category: IDE / developer extension marketplace listing
+  type: marketplace
+  marketplace: vs-code-marketplace
+  channel: partner-built
+  evidence: https://marketplace.visualstudio.com/publishers/denodo
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
