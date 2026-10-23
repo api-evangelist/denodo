@@ -1,0 +1,8 @@
+---
+title: "PGi 樺鼎商業資訊 (Perform Global Inc.)"
+url: "https://www.denodo.com/en/partner/pgi-huadingshangyezixun-perform-global-inc"
+date: "2026-10-14"
+author: "vjeganathan"
+feed_url: "https://www.denodo.com/en/rss.xml"
+---
+PGi 樺鼎商業資訊 (Perform Global Inc.) vjeganathan Thu, 10/15/2026 - 01:27 Certified Administrator 0 Certified Developer 0 Disable link in listings Certified Architect 0 Trained Architect 0 Trained Developer 0 Trained Administrator 0 Certified Architect Associate 8.0 0 Certified Architect Professional 8.0 0 Certified Administrator Associate 8.0 0 Certified Administrator Professional 8.0 0 Certified Developer Associate 8.0 0 Certified Developer Professional 8.0 0 Business Sales Ready Off Technical Sales Ready Off Product Ready Off POC Ready Off Implementation Ready Off Demo Ready Off Certified Admini
