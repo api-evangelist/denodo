@@ -1,4 +1,4 @@
-# Denodo (denodo)
+# Denodo
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,73 +66,134 @@
 
 Denodo is a leading data virtualization platform that enables real-time access, integration, and delivery of data from disparate sources across enterprise data landscapes. The Denodo Platform exposes a portfolio of REST, OData, GraphQL, and SOAP web service endpoints through Virtual DataPort, the Data Catalog, the Solution Manager, and the Scheduler so that data products can be published, governed, and administered programmatically.
 
-**URL:** [Visit APIs.yml URL](https://raw.githubusercontent.com/api-evangelist/denodo/refs/heads/main/apis.yml)
+**Areas:** Data Catalog · Data Fabric · Data Mesh · Data Virtualization · GraphQL · Logical Data Warehouse · OData · REST · Scheduler · Solution Manager
 
-## Scope
+## Denodo on APIs.io
 
-- **Type:** Index
-- **Position:** Producer
-- **Access:** 3rd-Party
-- **xType:** company
+Everything profiled for Denodo is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/denodo/](https://apis.io/providers/denodo/)** — or go straight to one of the APIs or properties below.
 
-## Tags
+### APIs (6)
 
-- Data Catalog, Data Fabric, Data Mesh, Data Virtualization, GraphQL, Logical Data Warehouse, OData, REST, Scheduler, Solution Manager
+- [Denodo Solution Manager REST API](https://apis.io/apis/denodo/solution-manager-api/) — The Solution Manager REST API provides programmatic access to administer the Denodo Platform across environments and clusters. It exposes endpoints for…
+- [Denodo Data Catalog REST API](https://apis.io/apis/denodo/data-catalog-api/) — The Denodo Data Catalog REST API provides programmatic access to the catalog of virtual views, web services, search, lineage, tags, categories, and…
+- [Denodo RESTful Web Service](https://apis.io/apis/denodo/rest-web-service/) — The Denodo RESTful Web Service exposes any view in Virtual DataPort as a resource-oriented REST endpoint. It supports JSON, XML, and HTML representations,…
+- [Denodo OData 4.0 Service](https://apis.io/apis/denodo/odata-service/) — The Denodo OData 4.0 service provides an OASIS OData v4 compliant interface for querying Virtual DataPort views over HTTP. It supports filter, select,…
+- [Denodo GraphQL Service](https://apis.io/apis/denodo/graphql-service/) — The Denodo GraphQL Service enables clients to execute GraphQL queries against virtual views in the Denodo Platform. It generates a GraphQL schema from…
+- [Denodo Scheduler REST API](https://apis.io/apis/denodo/scheduler-rest-api/) — The Denodo Scheduler REST API allows programmatic management and monitoring of scheduled jobs and projects in the Denodo Scheduler component. Endpoints…
 
-## Timestamps
+### Published properties
 
-- **Created:** 2026-03-16
-- **Modified:** 2026-04-28
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## APIs
+#### GraphQL (1)
 
-### Denodo Solution Manager REST API
-Programmatic administration of the Denodo Platform across environments and clusters.
+GraphQL schemas.
 
-**Human URL:** [Solution Manager REST API](https://community.denodo.com/docs/html/browse/latest/en/solution_manager/administration/appendix/rest_api/rest_api)
+- [Denodo GraphQL API](https://apis.io/graphqls/denodo/denodo-graphql/)
 
-### Denodo Data Catalog REST API
-Programmatic access to the catalog of virtual views, web services, search, lineage, tags, categories, and certifications.
+#### Agent skills (1)
 
-**Human URL:** [Data Catalog REST API](https://community.denodo.com/docs/html/browse/latest/en/vdp/data_catalog/appendix/rest_api/rest_api)
+Agent skills built on the API.
 
-### Denodo RESTful Web Service
-Publishes any view in Virtual DataPort as a resource-oriented REST endpoint.
+- [denodo-vql-generation](https://apis.io/agent-skills/denodo/denodo-vql-generation/)
 
-**Human URL:** [RESTful Architecture](https://community.denodo.com/docs/html/browse/latest/en/vdp/administration/restful_architecture/restful_architecture)
+#### JSON-LD (1)
 
-### Denodo OData 4.0 Service
-OASIS OData v4 compliant interface for querying Virtual DataPort views over HTTP.
+Linked-data contexts for the provider's vocabulary.
 
-**Human URL:** [Denodo OData Service](https://community.denodo.com/docs/html/browse/latest/en/vdp/administration/restful_architecture/odata_4_service/odata_4_service)
+- [Denodo Context](https://apis.io/jsonld/denodo/denodo-context/)
 
-### Denodo GraphQL Service
-GraphQL endpoint generated from selected views in Virtual DataPort.
+#### Vocabulary (1)
 
-**Human URL:** [Denodo GraphQL Service](https://community.denodo.com/docs/html/browse/latest/en/vdp/administration/restful_architecture/graphql_service/graphql_service)
+The provider's domain terms, defined.
 
-### Denodo Scheduler REST API
-Programmatic management and monitoring of scheduled jobs and projects in the Scheduler component.
+- [Denodo Vocabulary](https://apis.io/vocabularies/denodo/denodo-vocabulary/)
 
-**Human URL:** [Scheduler REST Web Service](https://community.denodo.com/docs/html/browse/latest/en/scheduler/administration/scheduler_rest_web_service/scheduler_rest_web_service)
+#### Security (1)
 
-## Common Properties
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Denodo Domain Security](https://apis.io/security/denodo/denodo-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Denodo Plans Pricing](https://apis.io/plans/denodo/denodo-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Denodo Rate Limits](https://apis.io/rate-limits/denodo/denodo-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Denodo Finops](https://apis.io/finops/denodo/denodo-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://www.denodo.com)
-- [Portal](https://community.denodo.com/)
 - [Documentation](https://community.denodo.com/docs/)
-- [Knowledge Base](https://community.denodo.com/kb/)
-- [Tutorials](https://community.denodo.com/tutorials/)
-- [Express Edition](https://www.denodo.com/en/denodo-platform/free-trials)
-- [Pricing](https://www.denodo.com/en/pricing)
 - [Support](https://support.denodo.com/)
-- [Blog](https://www.denodo.com/en/blog)
-- [GitHub Organization](https://github.com/denodo)
-- [JSON-LD](json-ld/denodo-context.jsonld)
-- [Vocabulary](vocabulary/denodo-vocabulary.yml)
-- [Capabilities](capabilities/denodo-capabilities.yml)
+- [Changelog](https://www.denodo.com/en/denodo-platform/whats-new)
+- [Terms of service](https://www.denodo.com/terms-of-use)
+- [Privacy policy](https://www.denodo.com/privacy-notice)
+- [GitHub](https://github.com/denodo)
 
-## Maintainers
+## API Evangelist rating
 
-- **FN:** Kin Lane
-- **Email:** kin@apievangelist.com
+**Kin Score 31.0** — thin · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 82.1 |
+| Contract quality | 30.7 |
+| Contract governance | 13.6 |
+| Operational transparency | 26.3 |
+| Developer ergonomics | 32.6 |
+| Access clarity | 21.1 |
+
+**Agent readiness 16.8** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 10.8** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/denodo/](https://apis.io/providers/denodo/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Denodo: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/denodo/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
